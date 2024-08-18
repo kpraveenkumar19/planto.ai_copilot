@@ -1,0 +1,40 @@
+{
+  "name": "vscode-copilot",
+  "version": "0.0.1",
+  "description": "A VS Code extension that assists with code generation, completion, and debugging.",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:vscode-copilot.generateCode",
+    "onCommand:vscode-copilot.customDebugAction"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-copilot.generateCode",
+        "title": "Generate Code"
+      },
+      {
+        "command": "vscode-copilot.customDebugAction",
+        "title": "Custom Debug Action"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vscode": "^1.1.37",
+    "@vscode/vsce": "^2.15.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repository.git"
+  }
+}
