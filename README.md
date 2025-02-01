@@ -43,6 +43,4 @@ The **VS Code Copilot** extension enhances the development experience within Vis
  ```bash
  vsce package
 
-I cam from remote test to merge
-
-
+I HAVE GONE ONE STEP FROM local MAIN
