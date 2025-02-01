@@ -43,4 +43,4 @@ The **VS Code Copilot** extension enhances the development experience within Vis
  ```bash
  vsce package
 
-I have gone 1 step from main
+I HAVE GONE ONE STEP FROM REMOTE MAIN
